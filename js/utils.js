@@ -8,7 +8,7 @@ function renderCell(i, j, value) {
     // Select the elCell and set the value
     const elCell = document.querySelector(`#cell-${i}-${j}`)
     // elCell.classList.add('shown')
-    elCell.innerText = value
+    elCell.innerHTML = value
 }
 
 function getRandEmptyCell() {
