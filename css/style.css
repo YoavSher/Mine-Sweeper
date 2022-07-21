@@ -1,0 +1,47 @@
+table {
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.game-board td {
+    border-radius: 5px;
+    border: 2px solid;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: rgb(141, 141, 246);
+    
+}
+
+.timer {
+    padding: 2px;
+    text-align: center;
+    margin: auto;
+    width: 40px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+button{
+    /* margin-left:200px; */
+    margin:10px auto;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: block;
+}
+
+.shown{
+    background-color: #bab5b5;
+}
+
+.mine{
+    background-color: red;
+}
