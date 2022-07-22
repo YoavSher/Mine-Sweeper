@@ -9,9 +9,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body onload="init()">
+<body onload="init(0)">
     <div class="timer"></div>
-    <button onclick="init()">😃</button>
+    <button onclick="init(0)">😃</button>
+    <table class="controls">
+        <tr class="level-buttons">
+          <td><button class="btn-grad" onclick="init(0)">Beginner</button></td>
+          <td><button class="btn-grad" onclick="init(1)">Medium</button></td>
+          <td><button class="btn-grad" onclick="init(2)">Expert</button></td>
+        </tr>
     <table class="center">
         <tbody class="game-board"></tbody>
     </table>
