@@ -45,7 +45,6 @@ function startTimer() {
     var s = gSeconds < 10 ? "0" + gSeconds : gSeconds
     var ms = gMilliseconds < 10 ? "00" + gMilliseconds : gMilliseconds < 100 ? "0" + gMilliseconds : gMilliseconds
     elTimer.innerHTML = `${m}:${s}`
-    return gSeconds
 }
 
 function stopTimer() {

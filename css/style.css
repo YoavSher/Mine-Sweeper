@@ -70,17 +70,27 @@ button {
 
 button.btn-grad {
     text-align: center;
-    padding: 3px;
+    /* padding: 5px; */
     width: 80px;
     height: 40px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: bold;
     cursor: pointer;
 }
 
 button.btn-grad:hover {
 
     background-color: white;
+}
+
+.life{
+    margin:5px auto;
+    text-align: center;
+    color: red;
+    font-size: 33px;
+    width: 100px;
+    height: 50px;
 }
 
 .cell.neig-count-1 {
