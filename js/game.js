@@ -195,7 +195,7 @@ function cellMarked(elCell, cellI, cellJ) {
         elCell.innerText = ''
         gGame.markedCount--
     }
-    if (gGame.shownCount === (gBoard.length ** 2 - gLevel.MINES) &&
+    if (gGame.shownCount === (gBoard.length ** 2 - gLevel[gCurrLevel].MINES) &&
         gGame.markedCount === gLevel[gCurrLevel].MINES) {
         gElBtn.innerText = '😎'
         checkGameOver()
